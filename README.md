@@ -2,7 +2,16 @@
 Broadcaster is a system to broadcast messages to all Java classes set up to accept broadcasts.
 
 # Installation
-Still working on getting this library installable
+## Maven
+Add this to your `pom.xml`:
+```xml
+<dependency>
+  <groupId>com.scool</groupId>
+  <artifactId>broadcaster</artifactId>
+  <version>1.0</version>
+</dependency>
+```
+Then just reload maven using `mvn install` or any other way that works for you.
 
 # Documentation
 ## Make a class receive broadcasts:
