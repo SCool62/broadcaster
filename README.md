@@ -25,6 +25,7 @@ public class Receiver implements BroadcastReceiver {
   }
 }
 ```
+Note: Make sure your language Maven language level is 6 or above. If it is not, just remove the `@Override`.
 This, on it's own will not do anything. When your program starts you need to execute this method:
 ```java
 Broadcaster.addReceiver(new Receiver());
