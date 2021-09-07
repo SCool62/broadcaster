@@ -16,7 +16,7 @@ Then just reload maven using `mvn install` or any other way that works for you.
 # Documentation
 ## Make a class receive broadcasts:
 ```java
-import com.scool.broadcast.BroadcastReceiver;
+import com.scool.broadcasting.BroadcastReceiver;
 
 public class Receiver implements BroadcastReceiver {
   @Override
