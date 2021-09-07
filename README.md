@@ -3,7 +3,7 @@ Broadcaster is a system to broadcast messages to all Java classes set up to acce
 
 # Installation
 ## Maven
-Add this to your `pom.xml`:
+Add this dependency to your `pom.xml`:
 ```xml
 <dependency>
   <groupId>com.scool</groupId>
