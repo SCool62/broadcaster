@@ -13,6 +13,9 @@ Add this dependency to your `pom.xml`:
 ```
 Then just reload maven using `mvn install` or any other way that works for you.
 
+## Alternative Download
+Alternatively you can download the `.jar` to add to your project. The `.jar`s are available for download along with the source code [here](https://github.com/SCool62/broadcaster/releases).
+
 # Documentation
 ## Make a class receive broadcasts:
 ```java
